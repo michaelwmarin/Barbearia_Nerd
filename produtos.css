@@ -1,20 +1,30 @@
-body{
-    margin: 5%;
-}
-
-p{
+p {
     text-align: center;
 }
 
-.logo{
+.logo {
     width: 300px;
 }
 
-header{
+header {
     background: #BBBBBB;
+    padding: 20px 0;
 }
 
-nav li{
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav { 
+    position: absolute;
+    right: 0%;
+    top: 150px;
+    
+}
+
+nav li {
     display: inline;
     margin: 0 0 0 15px; 
 }
@@ -26,4 +36,3 @@ nav a {
     font-size: 20px;
     text-decoration: none;
 }
-
