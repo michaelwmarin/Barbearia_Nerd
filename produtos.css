@@ -1,6 +1,5 @@
 body{
     margin: 5%;
-
 }
 
 p{
@@ -8,6 +7,23 @@ p{
 }
 
 .logo{
-    width: 25%;
+    width: 300px;
+}
+
+header{
+    background: #BBBBBB;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
 }
 
