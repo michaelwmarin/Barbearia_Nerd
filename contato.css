@@ -1,44 +1,3 @@
-.principal {
-    background: #cccccc;
-    padding: 2%;
-}
-
-.titulo-centralizado {
-    text-align: center;
-}
-
-#missao {
-    font-size: 120%;
-}
-
-p {
-    text-align: center;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.itens-beneficios {
-    display: inline-block;
-    width: 20%;
-    margin-right: 15%;
-    vertical-align: top;
-}
-
-#imgbeneficios {
-    width: 50%;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 3%;
-}
-
-em strong {
-    color: red;
-}
-
 .logo {
     width: 300px;
 }
@@ -53,14 +12,14 @@ header {
 
 .caixa {
     position: relative;
-    width: 800px;
-    margin: 0 auto;
+    width: 940px;
+    margin: auto;
 }
 
 nav { 
     position: absolute;
     top: 100px;
-    right: 0;
+    right: 0px;
 }
 
 nav li {
