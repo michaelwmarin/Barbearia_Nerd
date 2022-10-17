@@ -7,13 +7,13 @@
 }
 
 header {
-    background: #BBBBBB;
+    background: url("banner.jpg");
     padding: 20px 0;
 }
 
 .caixa {
     position: relative;
-    width: 940px;
+    width: auto;
     margin: 0 auto;
 }
 
