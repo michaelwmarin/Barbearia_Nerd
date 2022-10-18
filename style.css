@@ -1,66 +1,26 @@
-.principal {
-    background: #cccccc;
-    padding: 2%;
-}
-
-.titulo-centralizado {
-    text-align: center;
-}
-
-#missao {
-    font-size: 120%;
-}
-
-p {
-    text-align: center;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.itens-beneficios {
-    display: inline-block;
-    width: 20%;
-    margin-right: 15%;
-    vertical-align: top;
-}
-
-#imgbeneficios {
-    width: 50%;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 3%;
-}
-
-em strong {
-    color: red;
-}
-
 .logo {
     width: 300px;
 }
 
 .logo-branco {
-    width: 200px;
+    width: 300px;
 }
 
 header {
     background: url("banner.jpg");
+    padding: 20px 0;
 }
 
 .caixa {
-    position: relative;
-    width: 800px;
-    margin: 0 auto;
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-nav { 
-    position: absolute;
-    top: 100px;
-    right: 0;
+nav {
+	position: absolute;
+	top: 150px;
+	right: 0;
 }
 
 nav li {
@@ -81,6 +41,53 @@ nav a {
     text-decoration: none;
 }
 
+.produtos li:hover {
+    border-color: #C78C19;
+    color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+    color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.propduto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco { 
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 footer {
     text-align: center;
     background: url("bg.jpg");
@@ -91,4 +98,42 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+form select {
+    display: block;
+    margin: 0 0 20px;
+    padding: auto;
+}
+
+.contato {
+    display: block;
+    margin: 0 0 10px;
+    padding: auto;
+}
+
+.checkbox {
+    margin: 20px 0 20px;
 }

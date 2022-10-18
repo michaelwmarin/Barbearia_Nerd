@@ -6,7 +6,7 @@
         <title>Barbearia Nerd - Contato</title>
         
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="produtos.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -23,7 +23,48 @@
                 </nav>
             </div>
         </header>
+        
+        <main>
+            <form>
 
+                <label for="nomesobrenome">Nome e Sobrenome: </label>
+                <input type="text" id="nomesobrenome" class= "input-padrao">
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" class="input-padrao">
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" class= "input-padrao">
+
+                <label for="informacao">Informação: </label>
+                <textarea cols="70" rows="10" id="informacao"class= "input-padrao"></textarea>
+
+                <label>Qual horário prefere ser atendido? </label>
+                    <select name="Horário">
+                        <option value="Manhã">Manhã</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noite">Noite</option>
+                    </select>
+                    <div>
+                        <p>Como prefere o nosso contato?</p>
+
+                        <label class="contato" for="radio-email"><input  type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                        
+
+                        <label class="contato" for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                        
+
+                        <label class="contato" for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                        
+                    </div>
+
+                    <label><input class="checkbox" type="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
+
+                    <input type="submit" value="Enviar Formulário">
+
+            </form>
+        </main>
+        
         <footer>
             <img class="logo-branco" src="logo-branco.png">
             <p class="copyright">&copy; Copyright Barbearia Nerd - 2022</p>
