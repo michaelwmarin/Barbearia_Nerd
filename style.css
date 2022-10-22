@@ -3,7 +3,7 @@
 }
 
 .logo-branco {
-    width: 300px;
+    width: 150px;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
 header {
     background: #5e5e5e;
     padding: 20px 0;
+    
 }
 
 .caixa {
@@ -44,6 +45,14 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* CSS da página produtos */
 
 .produtos li:hover {
     border-color: #C78C19;
@@ -98,14 +107,19 @@ footer {
     padding: 40px 0;
 }
 
-.copyright {
-    color: #FFFFFF;
-    font-size: 13px;
-    margin-top: 20px;
-}
+/* CSS da página contato */
 
 form {
-    margin: 40px 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.primeira-input {
+    padding-top: 2em;
+}
+
+.segundo-input{
+    padding-bottom: 1em;
 }
 
 form label, form legend {
@@ -142,6 +156,7 @@ form label, form legend {
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
+    margin-bottom: 1em;
 }
 
 .enviar:hover {
@@ -153,6 +168,8 @@ table {
     margin: 20px 0 40px;
     box-sizing: border-box;
     border: 2px solid #000000;
+    width: 120px;
+    float: right;
 }
 
 thead {
@@ -174,6 +191,7 @@ td, th {
     font-family: Courier;
     text-align: center;
 }
+
 /* CSS da página inicial */
 .banner {
     width: 100%;
