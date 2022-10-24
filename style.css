@@ -1,9 +1,9 @@
 .logo {
-    width: 300px;
+    width: 20em;
 }
 
 .logo-branco {
-    width: 150px;
+    width: 15em;
 }
 
 body {
@@ -12,8 +12,6 @@ body {
 
 header {
     background: #5e5e5e;
-    padding: 20px 0;
-    
 }
 
 .caixa {
@@ -24,7 +22,7 @@ header {
 
 nav {
 	position: absolute;
-	top: 150px;
+	top: 40%;
 	right: 0;
 }
 
@@ -274,7 +272,14 @@ td, th {
 }
 
 .img-beneficios {
-    width: 40%;
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.img-beneficios:hover {
+    opacity: 0.3;
 }
 
 .video {
@@ -283,3 +288,30 @@ td, th {
     text-align: center;
 }
 
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    .lista-beneficios, .img-beneficios {
+        width: 100%;
+    }
+
+    .logo {
+        width: 15em;
+    }
+
+    .logo-branco {
+        width: 10em;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+}
