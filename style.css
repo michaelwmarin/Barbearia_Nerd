@@ -239,7 +239,6 @@ table, .primeira-input {
 }
 
 .mapa-conteudo {
-    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -289,8 +288,8 @@ table, .primeira-input {
 }
 
 .video {
-    width: 940px;
-    margin: 2em auto;
+    width: 70%;
+    margin: 1em auto;
     text-align: center;
 }
 
